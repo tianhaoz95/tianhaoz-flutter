@@ -1,6 +1,8 @@
 tasks:
-  - init: flutter channel dev && flutter config --enable-web
-    command: echo "not implemented"
+  - init: echo "not implemented"
+    command: |
+      flutter channel dev
+      flutter config --enable-web
 github:
   prebuilds:
     master: true
