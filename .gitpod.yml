@@ -1,5 +1,5 @@
 tasks:
-  - init: echo "not implemented"
+  - init: cd tianhaoz && flutter --version && flutter pub get
     command: |
       flutter channel dev
       flutter config --enable-web
