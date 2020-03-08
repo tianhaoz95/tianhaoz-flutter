@@ -1,8 +1,14 @@
 tasks:
-  - init: cd tianhaoz && flutter --version && flutter pub get
-    command: |
+  - init: |
+      flutter --version
       flutter channel dev
       flutter config --enable-web
+      cd tianhaoz
+      flutter pub get
+      cd ..
+      cd packages
+      cd homepage_layout
+      flutter pub get
 github:
   prebuilds:
     master: true
