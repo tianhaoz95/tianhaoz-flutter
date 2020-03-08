@@ -8,6 +8,7 @@ class TianhaozApp extends StatelessWidget {
     return MaterialApp(
       title: 'Tianhaoz',
       theme: tianhaozTheme,
+      debugShowCheckedModeBanner: false,
       home: HomeScreen(),
     );
   }

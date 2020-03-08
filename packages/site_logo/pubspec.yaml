@@ -1,7 +1,8 @@
-name: homepage_layout
-description: A responsive home screen layout widget.
+name: site_logo
+description: A new Flutter package project.
 version: 0.0.1
-homepage: https://github.com/tianhaoz95/tianhaoz-flutter
+author:
+homepage:
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

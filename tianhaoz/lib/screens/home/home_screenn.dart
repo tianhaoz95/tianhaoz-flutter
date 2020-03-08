@@ -6,6 +6,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return HomepageLayout(
       primaryList: <Widget>[
+        Container(
+          padding: EdgeInsets.fromLTRB(10.0, 10.0, 10.0, 10.0),
+          child: Image.asset('assets/avatar.png'),
+        ),
         Text('test')
       ],
       secondaryList: <Widget>[
